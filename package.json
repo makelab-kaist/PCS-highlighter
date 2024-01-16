@@ -1,0 +1,14 @@
+{
+  "name": "pcs-highlighter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "publish": "npm run build && npx surge dist --domain PCShighlighter.surge.sh"
+  },
+  "devDependencies": {
+    "vite": "^5.0.8"
+  }
+}
