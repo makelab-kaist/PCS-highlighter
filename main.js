@@ -12,7 +12,7 @@ const code = `
 
 document.querySelector('#app').innerHTML = `
   <div class="side">
-    <h5><b>Drag me</b> to the bookmarks bar</h5>
+    <h5><b>Drag me</b> to the bookmarks bar:</h5>
     <button type="button" class="btn btn-primary">
       <a href="
       javascript: (() => {${code}})()">
