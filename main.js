@@ -11,8 +11,8 @@ const code = `
 `;
 
 document.querySelector('#app').innerHTML = `
-  <div>
-    <h2>Drag me: </h2>
+  <div class="side">
+    <h5><b>Drag me</b> to the bookmarks bar</h5>
     <button type="button" class="btn btn-primary">
       <a href="
       javascript: (() => {${code}})()">
@@ -23,4 +23,5 @@ document.querySelector('#app').innerHTML = `
   <div class="gif">
     <img src="${tutorial}" alt="">
   </div>
+  
 `;

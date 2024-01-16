@@ -13,6 +13,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.side {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+}
+
+.side button {
+  margin-left: 1rem;
+}
+
 a {
   font-size: 1.2em;
   color: white;
@@ -44,11 +56,6 @@ h1 {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
-
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
 }
 
 @media (prefers-color-scheme: light) {
