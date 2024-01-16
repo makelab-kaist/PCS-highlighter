@@ -1,4 +1,5 @@
 import './style.css';
+import tutorial from './tutorial.gif';
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -18,6 +19,6 @@ document.querySelector('#app').innerHTML = `
     </button>
   </div>
   <div class="gif">
-    <img src="./public/tutorial.gif" alt="">
+    <img src="${tutorial}" alt="">
   </div>
 `;
