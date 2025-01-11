@@ -23,5 +23,7 @@ document.querySelector('#app').innerHTML = `
   <div class="gif">
     <img src="${tutorial}" alt="">
   </div>
-  
+  <div class="footer">
+    Then go to the PCS Chair page and click the bookmarlet to highlight the papers.
+  </div>
 `;
