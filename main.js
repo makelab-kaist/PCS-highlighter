@@ -5,7 +5,7 @@ const code = `
   setInterval(()=>{
     const papers = document.querySelectorAll('li.acPaper');
     papers.forEach(paper => {
-      paper.style.backgroundColor = 'yellow';
+      paper.style.backgroundColor = '#9711df';
     });
   }, 500)
 `;

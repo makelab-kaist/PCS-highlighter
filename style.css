@@ -40,6 +40,10 @@ body {
 
 img {
   width: 50%;
+  border-radius: 7px;
+  border-color: #213547;
+  border-width: 2px;
+  border-style: solid;
 }
 
 .gif {
